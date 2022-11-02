@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/',(req,res) =>{
-    res.render("pets",{text:"Lots of pets go here"})
+    res.render("pets",{text:"A list of all my pets goes here"})
 })
 
 router.get('/new',(req,res) =>{
